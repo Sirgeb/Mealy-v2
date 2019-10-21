@@ -1,0 +1,1 @@
+export const SET_TIME_OF_DAY = 'SET_TIME_OF_DAY';

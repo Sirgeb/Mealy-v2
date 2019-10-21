@@ -1,0 +1,1 @@
+export const SET_CURRENT_MEAL = "SET_CURRENT_MEAL";
