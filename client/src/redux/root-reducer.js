@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
 
 import breakfast from './breakfast/breakfast.reducer';
 import lunch from './lunch/lunch.reducer';
@@ -12,7 +13,13 @@ import toggleView from './view-meals/view-meals.reducer';
 import currentList from './current-list-of-meals/current-list-of-meals.reducer';
 import removeMeal from './remove-meal/remove-meal.reducer';
 
-export default combineReducers({
+const persistConfig = {
+  key: 'root',
+  storage,
+  whitelist: ['breakfast', 'lunch', 'dinner', 'supper']
+}
+
+const rootReducer = combineReducers({
   breakfast,
   lunch,
   dinner,
@@ -24,3 +31,6 @@ export default combineReducers({
   currentList,
   removeMeal,
 });
+
+export default persistReducer(persistConfig, rootReducer);
+
