@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import { persistReducer } from 'redux-persist';
 
 import breakfast from './breakfast/breakfast.reducer';
 import lunch from './lunch/lunch.reducer';
