@@ -1,6 +1,6 @@
 {
   "short_name": "Mealy",
-  "name": "Mealy",
+  "name": "Mealy - A Meal Suggestion Application",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,6 +21,10 @@
     },{
       "src": "mstile-150x150.png",
       "sizes": "150x150",
+      "type": "image/png"
+    },{
+      "src": "mealy-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
