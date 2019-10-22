@@ -1,6 +1,6 @@
 {
   "name": "mealy-v2-backend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "client": "cd client && npm run start",
     "server": "nodemon server.js",
