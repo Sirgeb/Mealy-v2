@@ -60,7 +60,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .modal__msg {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
   }
 
@@ -82,5 +82,4 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0 0 22px 0;
     word-break: break-all;
   }
-
 `;

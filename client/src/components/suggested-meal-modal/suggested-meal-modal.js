@@ -8,7 +8,7 @@ const SuggestedMealModal = ({ suggestedMeal, unsetSuggestedMeal }) => (
 
     <Modal
       isOpen={!!suggestedMeal}
-      contentLabel="Remove Meal"
+      contentLabel="suggested Meal"
       ariaHideApp={false}
       closeTimeoutMS={1000}
       className="modal"
