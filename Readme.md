@@ -9,7 +9,7 @@ Mealy-v2 is the version 2 of [Mealy](https://github.com/sirgeb/mealy/), a Meal S
 
 Web Url: https://mealy-v2.herokuapp.com 
 
-<br><br> To run locally on your machine, clone or download the repo then 
+<br> To run locally on your machine, clone or download the repo then 
 
 > npm install
 
