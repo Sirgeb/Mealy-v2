@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000;
 // convert http connections to https
 app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
+// compress files for better performance
 app.use(compression());
 
 // serve our client/build directory on production
